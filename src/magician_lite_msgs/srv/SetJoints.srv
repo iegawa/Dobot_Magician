@@ -1,0 +1,8 @@
+# Target Joint angles in radians
+float32 j1      # Base joint (radians)
+float32 j2      # Rear Arm joint (radians)
+float32 j3      # Forearm joint (radians)
+float32 j4      # End-effector rotation joint (radians)
+---
+bool success
+string message

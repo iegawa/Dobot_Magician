@@ -1,0 +1,13 @@
+# Target Cartesian coordinates in SI meters and rotation in radians
+float32 x       # Target X in meters
+float32 y       # Target Y in meters
+float32 z       # Target Z in meters
+float32 r       # Target Yaw rotation in radians
+
+# Mode:
+# 1 = MOVJ_XYZ (Joint-interpolated Cartesian move, default)
+# 2 = MOVL_XYZ (Linear Cartesian straight-line move)
+uint8 mode      # Optional mode selector (1 or 2, default is 1)
+---
+bool success
+string message
